@@ -1,0 +1,17 @@
+<h1>Rails 5 + ActionCable + React + Redux example</h1>
+<hr />
+
+<p>Chat Room</p>
+<ul id="messages">
+  <%= render @messages %>
+</ul>
+<hr />
+<form>
+  <label>Message:</label>
+
+  <input
+    type="text"
+    data-behavior="room_speaker"
+    placeholder="Say something..."
+  />
+</form>
