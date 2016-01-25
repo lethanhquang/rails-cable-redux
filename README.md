@@ -1,7 +1,10 @@
-## README
+## Rails-Cable-Redux
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic example chatroom base on [ActionCable](https://github.com/rails/rails/tree/master/actioncable]) 
+which in coming with Rails5. Combined with the [Redux](https://github.com/rackt/redux) 
+implementation of [Flux](https://facebook.github.io/flux/) - and of course 
+[React](https://facebook.github.io/react/) components - there's potential here for an interesting stack 
+if you don't want to create a separate front-end app and use Rails5 as an API server.
 
 Things you may want to cover:
 
@@ -9,15 +12,11 @@ Things you may want to cover:
 
 * Rails version `5.0.0beta1`
 
-* System dependencies
-- Redis
+* System dependencies `Redis`
 
 * Configuration
 
 * Database creation
-```bash
-$ rails db:migrate
-```
 
 * Database initialization
 
@@ -36,6 +35,12 @@ Install gem dependencies.
 ```bash
 $ cd rails-cable-redux
 $ bundle install
+```
+
+Database creation
+
+```bash
+$ rails db:migrate
 ```
 
 Start redis (depend on your redis client)
